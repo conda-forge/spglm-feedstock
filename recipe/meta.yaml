@@ -1,4 +1,4 @@
-{% set version = "1.0.5" %}
+{% set version = "1.0.6" %}
 
 package:
   name: spglm
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/s/spglm/spglm-{{ version }}.tar.gz
-  sha256: b811f4082e03f207ca7584876cd43d9aa78b6630776ea654e77cd0e748e858dc
+  sha256: b5e7b5e7ccdb4d0cf64ace03af28de8b4633aff42b2b86bc5e879f16c33634df
 
 build:
   number: 0
