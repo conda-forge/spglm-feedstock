@@ -14,9 +14,8 @@ Summary: Sparse generalized linear models
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/spglm-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/spglm-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/spglm-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/spglm-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/spglm-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/spglm-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/spglm-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/spglm-feedstock)
 
 Current release info
 ====================
