@@ -1,4 +1,4 @@
-{% set version = "1.0.7" %}
+{% set version = "1.0.8" %}
 
 package:
   name: spglm
@@ -6,12 +6,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/s/spglm/spglm-{{ version }}.tar.gz
-  sha256: 75262ae0c0583ac29b540b9e24713b722774dfd54e887e0c97d2e6c4b0f0e6f6
+  sha256: df83b8f7caa41c8aebc4cc39179e40e8670783b06ee567b59bbbe818b773f300
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv"
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv
 
 requirements:
   host:
@@ -31,7 +31,7 @@ test:
 about:
   home: https://github.com/pysal/spglm
   license: BSD-3-Clause
-  license_file: '{{ environ["RECIPE_DIR"] }}/LICENSE'
+  license_file: {{ environ["RECIPE_DIR"] }}/LICENSE
   summary: Sparse generalized linear models
 
 extra:
