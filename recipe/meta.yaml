@@ -9,20 +9,22 @@ source:
   sha256: 20519dc38be9d660a28109bb1b89d1068454e79f6413bab2e3987db5bf959327
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.9
     - pip
+    - setuptools >=61.0
+    - setuptools-scm >=6.2
   run:
-    - python >=3.6
-    - libpysal >=4.0.0
-    - numpy >=1.3
-    - scipy >=0.11
-    - spreg >=1.0.4
+    - python >=3.9
+    - libpysal >=4.5
+    - numpy >=1.23
+    - scipy >=1.8
+    - spreg >=1.2
 
 test:
   imports:
@@ -33,10 +35,13 @@ test:
     - pip
 
 about:
-  home: https://github.com/pysal/spglm
+  home: http://pysal.org/
   license: BSD-3-Clause
+  license_family: BSD
   license_file: LICENSE
-  summary: Sparse generalized linear models
+  summary: Sparse Generalized Linear Models
+  doc_url: https://pysal.org/spglm
+  dev_url: https://github.com/pysal/spglm
 
 extra:
   recipe-maintainers:

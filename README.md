@@ -3,11 +3,15 @@ About spglm-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/spglm-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/pysal/spglm
+Home: http://pysal.org/
 
 Package license: BSD-3-Clause
 
-Summary: Sparse generalized linear models
+Summary: Sparse Generalized Linear Models
+
+Development: https://github.com/pysal/spglm
+
+Documentation: https://pysal.org/spglm
 
 Current build status
 ====================
